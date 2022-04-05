@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F7FB;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.intro {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  max-width: 90%;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+p.get-ready {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.button-start {
+  height: 40px;
+  width: 140px;
+  background-color: #4D5B9E;
+  border: none;
+  color: white;
+  border-radius: 7px;
+}
+
+p.question {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.answers-box {
+  display: flex;
+  justify-content: center;
+  
+}
+
+button {
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0.7rem;
+  border: none;
+  border: 2px #293264 solid;
+  border-radius: 12px;
+  min-width: 60px;
+  min-height: 30px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+button.answer {
+  color: #293264;
+}
+
+button.answer:hover {
+  background-color: bisque;
+}
+
+button.answers:active {
+  background-color: grey;
+}
+
+button.check {
+  margin-top: 30px;
+  background-color: #293264;
+  color: white;
+}
+
+p.alert {
+  color: red;
+}

@@ -1,0 +1,25 @@
+html {
+  background-color: orangered;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+button {
+  margin: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: bisque;
+  border: none;
+  border-radius: 3px;
+  outline: 0;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

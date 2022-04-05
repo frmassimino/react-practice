@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: white;
+}
+
+.box {
+  border: 2px solid black;
+  height: 50px;
+  width: 100px;
+  margin: 2px;
+  display: inline-block;
+}

@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: darkorchid;
+}
+
+form {
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px black solid;
+  background-color: white;
+}
+
+input, textarea, button {
+  margin: 15px;
+  border-radius: 5px;
+}
+
+input[type=email],[type=password]  {
+  height: 30px;
+  border-color: lightgray;
+}
+
+button {
+  color: white;
+  background-color: darkorchid;
+  height: 40px;
+  width: 80px;
+}
+

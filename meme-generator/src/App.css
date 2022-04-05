@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+header {
+  display: flex;
+  background-color: blueviolet;
+  color: white;
+}
+
+.left-title {
+  margin: 20px;
+}
+
+.right-title {
+  position: absolute;
+  margin: 20px;
+  right: 0;
+}
+
+.div-grid {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  
+}
+
+input {
+  height: 30px;
+  border: 1px black solid;
+  border-radius: 3px;
+}
+
+.top-input {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.bottom-input {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+button {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 4px;
+  border: 2px black solid;
+  padding: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  font-size: 1.2em;
+}
+
+.meme {
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 350px;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  background-repeat: no-repeat;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.top-text {
+  margin: auto;
+  position: absolute;
+  vertical-align: top;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+.bottom-text {
+  margin: auto;
+  position: absolute;
+  vertical-align: bottom;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
